@@ -2,8 +2,6 @@
   <Folder Name="/Solution Items/">
     <File Path="../README.md" />
   </Folder>
-  <Project Path="MysticMind.PostgresEmbed.Tests/MysticMind.PostgresEmbed.Tests.csproj">
-    <Build Solution="Debug|*" Project="false" />
-  </Project>
+  <Project Path="MysticMind.PostgresEmbed.Tests/MysticMind.PostgresEmbed.Tests.csproj" />
   <Project Path="MysticMind.PostgresEmbed/MysticMind.PostgresEmbed.csproj" />
 </Solution>
