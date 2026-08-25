@@ -1,4 +1,4 @@
-namespace MysticMind.PostgresEmbed;
+namespace WebNet.PostgresEmbed;
 
 public enum Platform
 {

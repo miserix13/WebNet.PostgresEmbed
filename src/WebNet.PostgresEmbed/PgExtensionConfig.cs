@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MysticMind.PostgresEmbed;
+namespace WebNet.PostgresEmbed;
 
 public class PgExtensionConfig
 {

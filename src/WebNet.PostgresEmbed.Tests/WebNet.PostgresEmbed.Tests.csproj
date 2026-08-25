@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <TargetFrameworks>net10.0</TargetFrameworks>
-    <AssemblyName>MysticMind.PostgresEmbed.Tests</AssemblyName>
-    <PackageId>MysticMind.PostgresEmbed.Tests</PackageId>
+    <AssemblyName>WebNet.PostgresEmbed.Tests</AssemblyName>
+    <PackageId>WebNet.PostgresEmbed.Tests</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MysticMind.PostgresEmbed\MysticMind.PostgresEmbed.csproj" />
+    <ProjectReference Include="..\WebNet.PostgresEmbed\WebNet.PostgresEmbed.csproj" />
   </ItemGroup>
 
   <ItemGroup>

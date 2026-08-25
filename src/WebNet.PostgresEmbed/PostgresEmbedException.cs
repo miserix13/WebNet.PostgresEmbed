@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace MysticMind.PostgresEmbed;
+namespace WebNet.PostgresEmbed;
 
 public class PostgresEmbedException : Exception
 {

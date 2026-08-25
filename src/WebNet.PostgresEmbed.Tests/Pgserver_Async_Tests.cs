@@ -5,7 +5,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
-namespace MysticMind.PostgresEmbed.Tests
+namespace WebNet.PostgresEmbed.Tests
 {
     [Collection("Non-Parallel Collection")]
     public class PgServerAsyncTests

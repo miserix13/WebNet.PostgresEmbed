@@ -1,4 +1,4 @@
-# MysticMind.PostgresEmbed _Postgres embedded database equivalent for .Net applications_ [![Build status](https://github.com/mysticmind/mysticmind-postgresembed/actions/workflows/ci.yaml/badge.svg)](https://github.com/mysticmind/mysticmind-postgresembed/actions/workflows/ci.yaml) [![NuGet Version](https://badgen.net/nuget/v/mysticmind.postgresembed)](https://www.nuget.org/packages/MysticMind.PostgresEmbed/)
+# WebNet.PostgresEmbed _Postgres embedded database equivalent for .Net applications_ [![Build status](https://github.com/mysticmind/mysticmind-postgresembed/actions/workflows/ci.yaml/badge.svg)](https://github.com/mysticmind/mysticmind-postgresembed/actions/workflows/ci.yaml) [![NuGet Version](https://badgen.net/nuget/v/mysticmind.postgresembed)](https://www.nuget.org/packages/WebNet.PostgresEmbed/)
 
 This is a library for running a Postgres server embedded equivalent including extensions targeting Windows, Linux and OSX (including Silicon - M1/M2) available since v3.x or above. This project also handles Postgres extensions very well with a neat way to configure and use it.
 
@@ -12,12 +12,12 @@ If you have benefitted from this library and has saved you a bunch of time, plea
 <a href="https://github.com/sponsors/mysticmind" target="_blank"><img height="30" style="border:0px;height:36px;" src="https://img.shields.io/static/v1?label=GitHub Sponsor&message=%E2%9D%A4&logo=GitHub" border="0" alt="GitHub Sponsor" /></a> <!--<a href="https://ko-fi.com/babuannamalai" target="_blank"><img height="36" style="border:0px;height:36px;" src="https://cdn.ko-fi.com/cdn/kofi4.png?v=3" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a> <a href="https://www.buymeacoffee.com/babuannamalai" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="36" width="174"></a>-->
 
 ## Usage
-Install the package from Nuget using `Install-Package MysticMind.PostgresEmbed` or clone the repository and build it.
+Install the package from Nuget using `Install-Package WebNet.PostgresEmbed` or clone the repository and build it.
 
 ### Example of using Postgres binary
 ```csharp
 // using Postgres 15.3.0 with a using block
-using (var server = new MysticMind.PostgresEmbed.PgServer("15.3.0"))
+using (var server = new WebNet.PostgresEmbed.PgServer("15.3.0"))
 {
     // start the server
     server.Start();
@@ -41,7 +41,7 @@ using (var server = new MysticMind.PostgresEmbed.PgServer("15.3.0"))
 ### Example of using Postgres binary with StartAsync
 ```csharp
 // using Postgres 15.3.0 with a using block
-using (var server = new MysticMind.PostgresEmbed.PgServer("15.3.0"))
+using (var server = new WebNet.PostgresEmbed.PgServer("15.3.0"))
 {
     // start the server
     await server.StartAsync();
@@ -72,7 +72,7 @@ var extensions = new List<PgExtensionConfig>();
 extensions.Add(new PgExtensionConfig(
         "https://download.osgeo.org/postgis/windows/pg15/postgis-bundle-pg15-3.3.3x64.zip"));
 
-using (var server = new MysticMind.PostgresEmbed.PgServer("15.3.0", pgExtensions: extensions))
+using (var server = new WebNet.PostgresEmbed.PgServer("15.3.0", pgExtensions: extensions))
 {
     server.Start();
     var connStr = string.Format(ConnStr, server.PgPort, PgUser);
@@ -100,7 +100,7 @@ serverParams.Add("synchronous_commit", "off");
 // set max connections
 serverParams.Add("max_connections", "300");
 
-using (var server = new MysticMind.PostgresEmbed.PgServer("15.3.0", pgServerParams: serverParams))
+using (var server = new WebNet.PostgresEmbed.PgServer("15.3.0", pgServerParams: serverParams))
 {
     server.Start();
 
@@ -235,7 +235,7 @@ Note:
 Note that the above projects had only dealt with Postgres binary and none had options to deal with the Postgres extensions.
  
 ## License
-MysticMind.PostgresEmbed is licensed under [MIT License](http://www.opensource.org/licenses/mit-license.php). Refer to [License file](https://github.com/mysticmind/mysticmind-postgresembed/blob/master/LICENSE) for more information.
+WebNet.PostgresEmbed is licensed under [MIT License](http://www.opensource.org/licenses/mit-license.php). Refer to [License file](https://github.com/mysticmind/mysticmind-postgresembed/blob/master/LICENSE) for more information.
 
 Copyright © 2023 Babu Annamalai
 

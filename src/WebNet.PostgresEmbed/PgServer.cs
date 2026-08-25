@@ -9,7 +9,7 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MysticMind.PostgresEmbed;
+namespace WebNet.PostgresEmbed;
 
 public class PgServer : IDisposable, IAsyncDisposable
 {

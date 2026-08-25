@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Description>Postgres embedded server equivalent for .Net applications</Description>
     <Copyright>Copyright (C) Babu Annamalai</Copyright>
-    <AssemblyTitle>MysticMind.PostgresEmbed</AssemblyTitle>
+    <AssemblyTitle>WebNet.PostgresEmbed</AssemblyTitle>
     <VersionPrefix>4.1.0</VersionPrefix>
     <Authors>Babu Annamalai</Authors>
     <TargetFrameworks>net10.0</TargetFrameworks>
-    <AssemblyName>MysticMind.PostgresEmbed</AssemblyName>
+    <AssemblyName>WebNet.PostgresEmbed</AssemblyName>
     <PackageId>WebNet.PostgresEmbed</PackageId>
     <PackageTags>postgres;postgresql;pg;embed;embedded;server;.net 4.6;net 4.6;net46;.net core;net core;netcore;netcore 2.0;netcore rtm</PackageTags>
     <PackageProjectUrl>https://github.com/miserix13/postgresembed</PackageProjectUrl>

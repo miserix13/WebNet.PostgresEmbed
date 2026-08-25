@@ -4,7 +4,7 @@ using Xunit;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace MysticMind.PostgresEmbed.Tests;
+namespace WebNet.PostgresEmbed.Tests;
 
 [CollectionDefinition("Non-Parallel Collection", DisableParallelization = true)]
 public class NonParallelCollectionDefinitionClass

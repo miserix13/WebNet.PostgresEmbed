@@ -5,7 +5,7 @@ using System.IO.Compression;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MysticMind.PostgresEmbed;
+namespace WebNet.PostgresEmbed;
 
 internal class PgExtension
 {

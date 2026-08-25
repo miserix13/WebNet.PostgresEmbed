@@ -13,7 +13,7 @@ using SharpCompress.Common;
 using SharpCompress.Readers;
 using System.Runtime.InteropServices;
 
-namespace MysticMind.PostgresEmbed
+namespace WebNet.PostgresEmbed
 {
     internal class ProcessResult
     {
