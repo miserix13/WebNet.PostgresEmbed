@@ -2,11 +2,11 @@
   <Folder Name="/Solution Items/">
     <File Path="../README.md" />
   </Folder>
-  <Project Path="MysticMind.PostgresEmbed.Tests/MysticMind.PostgresEmbed.Tests.csproj">
+  <Project Path="WebNet.PostgresEmbed.Tests/WebNet.PostgresEmbed.Tests.csproj">
     <BuildType Project="Debug" />
     <Build Project="false" />
   </Project>
-  <Project Path="MysticMind.PostgresEmbed/MysticMind.PostgresEmbed.csproj">
+  <Project Path="WebNet.PostgresEmbed/WebNet.PostgresEmbed.csproj">
     <BuildType Project="Release" />
   </Project>
 </Solution>
