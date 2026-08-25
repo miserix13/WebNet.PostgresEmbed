@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <Description>Postgres embedded server equivalent for .Net applications</Description>
-    <Copyright>Copyright (C) Babu Annamalai</Copyright>
+    <Copyright>Copyright (C) miserix13</Copyright>
     <AssemblyTitle>WebNet.PostgresEmbed</AssemblyTitle>
     <VersionPrefix>4.1.0</VersionPrefix>
-    <Authors>Babu Annamalai</Authors>
+    <Authors>miserix13</Authors>
     <TargetFrameworks>net10.0</TargetFrameworks>
     <AssemblyName>WebNet.PostgresEmbed</AssemblyName>
     <PackageId>WebNet.PostgresEmbed</PackageId>
@@ -16,6 +16,8 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>PostgresEmbed</Title>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <AssemblyVersion>4.2.0.0</AssemblyVersion>
+    <FileVersion>4.2.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
