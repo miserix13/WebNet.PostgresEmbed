@@ -15,13 +15,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install .NET 8.0.x
+      - name: Install .NET 10.0.x
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 9.0.x
+          dotnet-version: 10.0.x
 
       - name: Run Pack
-        run: dotnet pack src/MysticMind.PostgresEmbed/MysticMind.PostgresEmbed.csproj -c Release
+        run: dotnet pack src/WebNet.PostgresEmbed/WebNet.PostgresEmbed.csproj -c Release
         shell: bash
 
       - name: Publish to NuGet
