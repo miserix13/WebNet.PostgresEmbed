@@ -237,6 +237,6 @@ Note that the above projects had only dealt with Postgres binary and none had op
 ## License
 WebNet.PostgresEmbed is licensed under [MIT License](http://www.opensource.org/licenses/mit-license.php). Refer to [License file](https://github.com/mysticmind/mysticmind-postgresembed/blob/master/LICENSE) for more information.
 
-Copyright © 2023 Babu Annamalai
+Copyright © 2026 miserix13
 
 
